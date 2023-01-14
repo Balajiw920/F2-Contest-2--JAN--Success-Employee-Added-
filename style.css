@@ -1,0 +1,46 @@
+body{
+    color: white;
+    background-color: black;
+    width:auto;
+}
+form {
+    width: 100%;
+    margin: 20px;
+}
+.user-input{
+    display: flex;
+}
+
+.user-input input {
+    margin: 30px 0;
+    border-radius: 4px;
+    width: 25%;
+    height: 25px;
+    
+}
+.btn{
+    padding-left: 40px;
+    padding-right: 40px ;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 8px;
+}

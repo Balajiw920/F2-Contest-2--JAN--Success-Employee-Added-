@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+  <div class="container">
+
+    <form>
+      <h3>New Employees</h3>
+      <div class="user-input">
+        <label>Enter Name</label>
+        <input type="text" id="name" required>
+        <label>Enter Profession</label>
+        <input type="text" id="profession" required>
+        <label>Enter Age</label>
+        <input type="number" id="age" required>
+      </div>
+      <input type="button" value="Add User" onclick="adduser()" class="btn">
+      <p id="error" class="error"></p>
+      <p id="success" class="success"></p>
+    </form>
+  </div>
+  <table id="employeeTable">
+    <thead>
+      <tr>
+        <h4>Added Employees</h4>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Profession</th>
+        <th>Age</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="employeeList"></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+
+</html>
